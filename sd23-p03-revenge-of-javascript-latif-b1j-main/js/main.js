@@ -184,7 +184,7 @@ function shoot(e) {
         return;
     }
 
-    if (e.code == "Space") {
+    if (e.code == "ArrowUp") {
         //shoot
         let bullet = {
             x : ship.x + shipWidth*15/32,
